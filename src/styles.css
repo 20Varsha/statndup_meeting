@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import '~ngx-toastr/toastr';
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: large;
+}
+
+h3 h6{
+    font-family: 'Josefin Slab', serif;
+}
