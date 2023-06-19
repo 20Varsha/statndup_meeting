@@ -12,5 +12,19 @@ module.exports = {
 
     //User
     FETCH_USER: "Fetch users successfully",
+
+    //Auth User
+    USER_CREATED:"User created",
+    USER_EXIST:"User with this email already exist!",
+    PASSWORD_MISS_MATCH:"Password mismatch",
+    AUTHENTICATION_SUCCESSFUL:"User logged In",
+    NOT_FOUND:"User not found",
+    DATA_NOT_FOUND:"Data not found",
+    PASSWORD_MISSING:"Password missing",
+
+    //JWT Token
+    UNAUTHORIZED:"Token verification failed",
+    TOKEN_MISSING:"Authorization header missing",
 }
+
 

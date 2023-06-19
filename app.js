@@ -2,6 +2,9 @@ const express = require("express");
 const routes = require("./src/route/index");
 const app = express();
 require("dotenv").config();
+const bodyParser = require('body-parser');
+
+app.use(bodyParser.json());
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
